@@ -12,6 +12,8 @@ node {
     imageName = "${appName}:${tag}"
     env.BUILDIMG=imageName
 
+    echo "Building image named ${imageName}"
+
     stage "Build"
     
         sh "docker build -t ${imageName} part1/hello-kenzan"
