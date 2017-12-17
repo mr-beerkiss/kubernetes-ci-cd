@@ -1,6 +1,6 @@
 FROM nginx:latest
 
 COPY index.html /usr/share/nginx/html/index.html
-COPY DockerFileEx.jpg /usr/share/nginx/html/DockerFileEx.jpg
+COPY puppy.jpg /usr/share/nginx/html/puppy.jpg
 
 EXPOSE 80
